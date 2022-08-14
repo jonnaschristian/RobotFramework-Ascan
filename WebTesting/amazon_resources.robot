@@ -10,13 +10,13 @@ ${MENU_TABLETS}        //img[contains(@alt,'Tablets')]
 ${Xbox Series S}       //input[contains(@type,'text')]
 ${SEARCH_BUTTON}       //input[contains(@type,'submit')]
 
-
 *** Keywords ***
 Abrir o navegador
     Open Browser               browser=chrome
     Maximize Browser Window
 
 Fechar o navegador
+    Capture Page Screenshot
     Close Browser
 
 Acessar a homepage do site Amazon.com.br

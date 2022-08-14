@@ -20,8 +20,6 @@ Caso de Teste 01 - Acesso ao menu "Eletrônicos"
     Verificar se aparece a categoria "Computadores e Informática"
     Verificar se aparece a categoria "Tablets"
 
-
-
 Caso de Teste 02 - Pesquisa de um Produto
     [Documentation]    Esse teste verifica a busca de um produto
     [Tags]             busca_produtos    lista_busca
