@@ -2,6 +2,7 @@
 Library          SeleniumLibrary
 
 *** Variables ***
+${BROWSER}             chrome
 ${URL}                 https://www.amazon.com.br/
 ${MENU_ELETRONICOS}    //a[contains(.,'Eletrônicos')]
 ${HEADER_ELETRONICOS}  //h1[contains(.,'Eletrônicos e Tecnologia')]
@@ -12,7 +13,7 @@ ${SEARCH_BUTTON}       //input[contains(@type,'submit')]
 
 *** Keywords ***
 Abrir o navegador
-    Open Browser               browser=chrome
+    Open Browser               browser=${BROWSER} 
     Maximize Browser Window
 
 Fechar o navegador
