@@ -13,10 +13,10 @@ Caso de Teste 01 - Acesso ao menu "Eletrônicos"
     ...                e verifica a categorria Computadores e Informática
     [Tags]             menus    categorias
     Acessar a homepage do site Amazon.com.br
-    Verificar se o título da página fica "Amazon.com.br | Tudo pra você, de A a Z."
+    Verificar se o título da página fica "Amazon.com.br|Tudo pra você, de A a Z."
     Entrar no menu "Eletrônicos"
     Verificar se aparece a frase "Eletrônicos e Tecnologia"
-    Verificar se o título da página fica "Eletrônicos e Tecnologia | Amazon.com.br"
+    Verificar se o título da página fica "Eletrônicos e Tecnologia|Amazon.com.br"
     Verificar se aparece a categoria "Computadores e Informática"
     Verificar se aparece a categoria "Tablets"
 

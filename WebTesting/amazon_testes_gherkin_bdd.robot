@@ -14,13 +14,10 @@ Caso de Teste 01 - Acesso ao menu "Eletrônicos"
     [Tags]             menus    categorias
     Dado que estou na home page da Amazon.com.br
     Quando acessar o menu "Eletrônicos"
-    Então o título da página deve ficar "Eletrônicos e Tecnologia | Amazon.com.br"
+    Então o título da página deve ficar "Eletrônicos e Tecnologia|Amazon.com.br"
     E o texto "Eletrônicos e Tecnologia" deve ser exibido na página
     E a categoria "Computadores e Informática" deve ser exibida na página
 
-
-
-    
 Caso de Teste 02 - Pesquisa de um Produto
     [Documentation]    Esse teste verifica a busca de um produto
     [Tags]             busca_produtos    lista_busca
